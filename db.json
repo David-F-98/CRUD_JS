@@ -4,6 +4,21 @@
       "nombre": "David",
       "email": "david@alura.com",
       "id": 1
+    },
+    {
+      "nombre": "David",
+      "email": "COMUNICACIONESLMB@GMAIL.COM",
+      "id": "476033fd-042d-4fb1-8b6a-a51fd5f5225d"
+    },
+    {
+      "nombre": "Fernando",
+      "email": "davichechenco@hotmail.com",
+      "id": "074cdd1a-9ba8-4dfc-8759-04212d80ce54"
+    },
+    {
+      "nombre": "Danilo",
+      "email": "U2903149@UNIMILITAR.EDU.CO",
+      "id": "2b2920b7-d88e-413e-a7bb-83707cccc1c9"
     }
   ]
 }

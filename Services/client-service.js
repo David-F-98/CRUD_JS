@@ -9,8 +9,19 @@ const crearCliente = (nombre, email) => {
       body:JSON.stringify({nombre,email, id:uuid.v4()}),
     });
 }
+const eliminarCliente = (id) => {
+return fetch(`http://localhost:3000/perfil/${id}`, {
+  method: "DELETE",
+});
+};
+
+const detalleCliente = (id) => {
+  return fetch(`http://localhost:3000/perfil/${id}`).then((respuesta) => respuesta.json());
+};
 
 export const clientServices = {
   listaClientes,
   crearCliente,
+  eliminarCliente,
+  detalleCliente,
 };
